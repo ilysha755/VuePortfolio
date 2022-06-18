@@ -71,9 +71,9 @@ export default {
 data(){
   return{
       education:[
-      {id:'0',time:'sep 2011 - present', name:'Russian University of Cooperation', desc:'Programmer', },
-      {id:'1',time:'sep 2016 - nov 2020', name:'Korolev College of Space Engineering and Technology', desc:'Operator of CNC machines', },
-      {id:'2',time:'sep 2016 - nov 2021', name:'Korolev College of Space Engineering and Technology', desc:'Car mechanic', },
+      {id:'0',time:'sep 2021 - present', name:'Russian University of Cooperation', desc:'Programmer', },
+      {id:'1',time:'sep 2016 - nov 2021', name:'Korolev College of Space Engineering and Technology', desc:'Car mechanic', },
+      {id:'2',time:'sep 2016 - nov 2020', name:'Korolev College of Space Engineering and Technology', desc:'Operator of CNC machines', },
     ],
       experience:[
       {id:'0',time:'jan 2022 - present', name:'Lion', desc:'Front-end developer'},
