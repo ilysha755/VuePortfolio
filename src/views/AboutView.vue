@@ -12,7 +12,7 @@
   <div class="about__text">
     <h1>About <span>Me</span></h1>
     <p>Hi! I am Ilya Rubtsov, Frontend developer. I create user interfaces. My main task is to create products for a million users. In my free time I travel or create a small car project :)</p>
-    <a href="">View CV</a>
+    <a href="https://pushkino.hh.ru/applicant/resumes?hhtmFromLabel=header&hhtmFrom=main">View CV</a>
   </div>
      </div>
    </section>
@@ -73,7 +73,7 @@ data(){
       education:[
       {id:'0',time:'sep 2011 - present', name:'Russian University of Cooperation', desc:'Programmer', },
       {id:'1',time:'sep 2016 - nov 2020', name:'Korolev College of Space Engineering and Technology', desc:'Operator of CNC machines', },
-      {id:'2',time:'sep 2020 - nov 2021', name:'Korolev College of Space Engineering and Technology', desc:'Car mechanic', },
+      {id:'2',time:'sep 2016 - nov 2021', name:'Korolev College of Space Engineering and Technology', desc:'Car mechanic', },
     ],
       experience:[
       {id:'0',time:'jan 2022 - present', name:'Lion', desc:'Front-end developer'},

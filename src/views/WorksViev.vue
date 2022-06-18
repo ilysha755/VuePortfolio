@@ -3,10 +3,16 @@
         <main>
             <section class="works">
                 <div class="dev-works" @click="$router.push({name:'WebDev'})">
-                    <h2>WebDev</h2>
+                <div class="dev__img">
+                    <img src="../assets/webdev.png" alt="">
+                </div>
+                    <h2>Web Dev</h2>
                 </div>
                 <div class="design-works" @click="$router.push({name:'Design'})">
-                    <h2>WebDesign</h2>
+                <div class="design__img">
+                    <img src="../assets/design.png" alt="">
+                </div>
+                    <h2>Web Design</h2>
                 </div>
             </section>
         </main>
@@ -27,6 +33,7 @@ main{
     width: 100%;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .dev-works {
     max-width: 430px;
@@ -34,7 +41,15 @@ main{
         max-height:356px;
         height  :100%;
         text-align: center;
-        background:red;
+        padding: 30px;
+        transition: all 0.4s ease;
+        cursor: pointer;
+        &:hover{
+        -webkit-box-shadow: 0px 0px 21px 9px rgba(255, 255, 255, 0.13);
+-moz-box-shadow: 0px 0px 21px 9px rgba(255, 255, 255, 0.13);
+box-shadow: 0px 0px 21px 9px rgba(255, 255, 255, 0.13);
+        transition: all 0.4s ease;
+        }
 }
 .design-works {
       max-width: 430px;
@@ -42,7 +57,15 @@ main{
         max-height:356px;
         height  :100%;
         text-align: center;
-        background:red;
+        padding: 30px;
+        transition: all 0.4s ease;
+        cursor: pointer;
+        &:hover{
+        -webkit-box-shadow: 0px 0px 21px 9px rgba(255, 255, 255, 0.13);
+-moz-box-shadow: 0px 0px 21px 9px rgba(255, 255, 255, 0.13);
+box-shadow: 0px 0px 21px 9px rgba(255, 255, 255, 0.13);
+        transition: all 0.4s ease;
+        }
 }
 
 </style>
